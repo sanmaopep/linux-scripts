@@ -19,7 +19,7 @@ rm -rf *
 echo "#######################################################################"
 echo "downloading google chrome version ${chromeVersion}"
 chromeName="chrome.deb"
-sudo wget -O ${chromeName} -c ${googleChromeLink}
+sudo wget -O ${chromeName} -c ${chromeLink}
 sudo dpkg -i ${chromeName}
 
 echo "#######################################################################"
@@ -33,3 +33,10 @@ echo "downloading netMusic version ${netMusicVersion}"
 netMusicName="netMusic.deb"
 sudo wget -O ${netMusicName} -c ${netMusicLink}
 sudo dpkg -i ${netMusicName}
+
+echo "#######################################################################"
+echo "install markdown editor Typora"
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE -y
+sudo add-apt-repository 'deb http://typora.io linux/' -y
+sudo apt-get update -y
+sudo apt-get install typora
