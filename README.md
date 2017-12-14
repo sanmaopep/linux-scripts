@@ -32,6 +32,9 @@ I can't code ubuntu desktop script without these help:
 ### 搜狗拼音的手动配置
 
 1. Language Support添加简体中文。并将输入法设置为fcitx。
+2. 输入法configuration中添加，去掉只显示当前语言，找到sougoupinyin
+
+![](./assets/sougou.png)
 
 ### 界面美化手动配置
 安装完成后，打开Tweak Tool即可进行配置。
@@ -39,3 +42,9 @@ I can't code ubuntu desktop script without these help:
 1. 设置主题为Arc，图标集为Flat Remix。
 
 ![](./assets/tweak1.png)
+
+
+
+## FAQ
+
+[登录后蓝屏](http://www.cnblogs.com/liaojieliang/p/ubuntu-blue.html)
