@@ -13,6 +13,7 @@ sougouLink="http://cdn2.ime.sogou.com/dl/index/1509619794/sogoupinyin_2.2.0.0102
 netMusicVersion="1.1.0"
 netMusicLink="http://d1.music.126.net/dmusic/netease-cloud-music_1.1.0_amd64_ubuntu.deb"
 
+mkdir ../tmp
 cd ../tmp/
 rm -rf *
 
