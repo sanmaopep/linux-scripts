@@ -1,7 +1,7 @@
 # ubuntu-desktop-scripts
 A bunch of scripts to config ubuntu desktop quikly
 
-### Usage
+## Usage
 
 ```shell
 sudo apt-get install git
@@ -11,13 +11,13 @@ sudo chmod +x setup.sh
 ./setup.sh
 ```
 
-### Files
+## Files
 ```
 shells - save all scripts
 tmp - save all downloaded things or something useful but big
 ```
 
-### References
+## References
 I can't code ubuntu desktop script without these help:
 
 [ubuntu-make](https://github.com/Ubuntu/ubuntu-make)
@@ -26,4 +26,16 @@ I can't code ubuntu desktop script without these help:
 
 [JSON.sh](https://github.com/dominictarr/JSON.sh)
 
-### Notice
+[Ubuntu_Init](https://github.com/starFalll/Ubuntu_Init)
+
+## Notice
+### 搜狗拼音的手动配置
+
+1. Language Support添加简体中文。并将输入法设置为fcitx。
+
+### 界面美化手动配置
+安装完成后，打开Tweak Tool即可进行配置。
+
+1. 设置主题为Arc，图标集为Flat Remix。
+
+![](./assets/tweak1.png)
