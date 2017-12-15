@@ -15,7 +15,6 @@ netMusicLink="http://d1.music.126.net/dmusic/netease-cloud-music_1.1.0_amd64_ubu
 
 mkdir ../tmp
 cd ../tmp/
-rm -rf *
 
 echo "#######################################################################"
 echo "downloading google chrome version ${chromeVersion}"
@@ -46,4 +45,14 @@ echo "install markdown editor Typora"
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE -y
 sudo add-apt-repository 'deb http://typora.io linux/' -y
 sudo apt-get update -y
-sudo apt-get -y install typora 
+sudo apt-get -y install typora
+sudo apt-get -yf install
+sudo apt-get -y install typora
+
+
+echo "#######################################################################"
+echo "TODO scripts"
+echo "mint driver 驱动管理s"
+echo "Startup Application 启动项管理"
+echo "pinta 画图"
+echo "GIMP PS"
