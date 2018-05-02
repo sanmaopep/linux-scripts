@@ -42,16 +42,18 @@ sudo dpkg -i ${netMusicName}
 
 echo "#######################################################################"
 echo "install markdown editor Typora"
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE -y
-sudo add-apt-repository 'deb http://typora.io linux/' -y
-sudo apt-get update -y
-sudo apt-get -y install typora
-sudo apt-get -yf install
-sudo apt-get -y install typora
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE
+
+# add Typora's repository
+sudo add-apt-repository 'deb https://typora.io ./linux/'
+sudo apt-get update
+
+# install typora
+sudo apt-get install typor
 
 
 echo "#######################################################################"
-echo "TODO scripts"
+echo "TODO scripts 用linux mint 吧，大部分软件不用装！"
 echo "mint driver 驱动管理s"
 echo "Startup Application 启动项管理"
 echo "pinta 画图"

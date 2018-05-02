@@ -4,6 +4,8 @@ echo "#                          BEAUTIFY UBUNTU                            #"
 echo "#######################################################################"
 echo ""
 
+
+#P.S Linux Mint不需要安装gnmoe相关与theme，只需要安装icons即可
 #install gnome desktop
 echo "install gnome shell and tweak tool"
 sudo apt-get install gnome-session -y

@@ -69,6 +69,10 @@ Categories=Development;
 
 + [ss PAC配置](http://blog.csdn.net/hanshileiai/article/details/52624303)
 
++ linux mint 字体
+只需在软件管理中删除Font-arphic-ukai和Font-arphic-uming一切即可正常！
+控制台的等宽通过设置等宽字体（一般为Mono实现）
+
 + sudo 无法解析主机（换了个有个性的主机名的时候）
 sudo gedit /etc/hosts
 找到 127.0.0.1 XXX
@@ -81,3 +85,13 @@ sudo gedit /etc/hosts
 
 + dpkg 被锁
 打开系统监视器，右上角下拉选择显示所有线程，然后查找有apt开头的进程，全部杀死。
+
++ 在terminal进行ss代理
+
+ss代理设为http格式
+在.bashrc中加入：
+```
+alias setproxy="export http_proxy=http://localhost:1080 ; export https_proxy=https://localhost:1080"
+alias unsetproxy="unset http_proxy ; unset https_proxy"
+```
+

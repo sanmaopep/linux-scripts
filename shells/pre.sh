@@ -21,12 +21,9 @@ echo "install curl"
 sudo apt-get install curl -y
 
 echo "#######################################################################"
-echo "Install shadowsocks"
-sudo add-apt-repository ppa:hzwhuang/ss-qt5 -y
-sudo apt-get update -y
-sudo apt-get install shadowsocks-qt5 -yf
-sudo apt-get -yf install
-sudo apt-get install shadowsocks-qt5 -yf
+echo "Install V2ray"
+sudo su
+bash <(curl -L -s https://install.direct/go.sh)
 
-echo "Config PAC for shadowsocks"
+echo "Config PAC for V2ray"
 echo "Visit http://blog.csdn.net/hanshileiai/article/details/52624303"
