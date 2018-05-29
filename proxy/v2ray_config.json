@@ -22,11 +22,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "input yourserver",
-          "port": "input your port",
+          "address": "input your server and port!",
+          "port": 123456,
           "users": [
             {
-              "id": "input your ip",
+              "id": "input your id",
               "alterId": 64,
               "security": "chacha20-poly1305"
             }

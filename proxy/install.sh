@@ -14,7 +14,7 @@ sudo apt install -y privoxy
 # v2ray listen at 1080
 sudo cp /etc/v2ray/config.json /etc/v2ray/config.json.bak
 sudo cp -f ./v2ray_config.json /etc/v2ray/config.json
-service v2ray restart
+sudo service v2ray restart
 
 # privoxy listen at 8118
 sudo pip install gfwlist2privoxy
