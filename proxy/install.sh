@@ -6,6 +6,8 @@ echo "#                        INSTALL PROXY CHAINS                         #"
 echo "#######################################################################"
 echo ""
 
+# install pip
+sudo apt install python-pip
 # install v2ray
 bash <(curl -L -s https://install.direct/go.sh)
 # install privoxy
