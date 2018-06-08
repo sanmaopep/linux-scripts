@@ -22,8 +22,8 @@
     "settings": {
       "vnext": [
         {
-          "address": "input your server and port!",
-          "port": 123456,
+          "address": "input your address and port",
+          "port": 1111,
           "users": [
             {
               "id": "input your id",

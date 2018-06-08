@@ -17,5 +17,3 @@ V2ray+privoxy+iptables
 # FAQ
 把"port": "22512"改成"port": 22512.要注意数字、Boolean和字符串的区别，加了引号完全不是一个东西
 
-
-

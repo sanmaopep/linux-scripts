@@ -7,7 +7,7 @@ echo "#######################################################################"
 echo ""
 
 # install pip
-sudo apt install python-pip
+sudo apt install python-pip -y
 # install v2ray
 bash <(curl -L -s https://install.direct/go.sh)
 # install privoxy
