@@ -24,3 +24,8 @@ sudo cp /etc/privoxy/default.action /etc/privoxy/default.action.bak
 sudo gfwlist2privoxy -i ./gfwlist.txt -f /etc/privoxy/default.action -p "127.0.0.1:1080" -t socks5
 sudo service privoxy restart
 
+# 设置curl代理
+cat > ~/.curlrc << EOF
+-L
+proxy = 127.0.0.1:8118
+EOF

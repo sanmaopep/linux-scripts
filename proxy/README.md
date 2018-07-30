@@ -2,7 +2,7 @@
 
 ## 原理
 
-V2ray+privoxy+iptables
+V2ray+privoxy
 
 + V2ray：解析vmess协议，提供socks5代理
 + privoxy：将所有协议转为socks5
