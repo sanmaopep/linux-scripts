@@ -1,4 +1,4 @@
-# ubuntu-desktop-scripts
+# linux-scripts
 A bunch of scripts to config ubuntu desktop quikly
 
 ## Usage
