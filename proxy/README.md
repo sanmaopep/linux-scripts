@@ -24,6 +24,8 @@ iptables透明代理配置（推荐）
 # FAQ
 把"port": "22512"改成"port": 22512.要注意数字、Boolean和字符串的区别，加了引号完全不是一个东西
 
+删除iptables链：iptables -t nat -F V2RAY
+
 # Update
 2018/11/12
 - 用v2ray自带跳过国内地址代替PAC
